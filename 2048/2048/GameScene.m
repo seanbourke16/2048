@@ -97,13 +97,74 @@
 
 @end
 
+@interface Game : NSObject{
+    Tile *x1 [4];
+    Tile *x2 [4];
+    Tile *x3 [4];
+    Tile *x4 [4];
+}
+-(id) init;
+-(void) swipe;
+
+@end
+@implementation Game
+
+-(id)init{
+    self=[super init];
+    int f = (rand()/RAND_MAX) * 4;
+    int g = (rand()/RAND_MAX)*4;
+    if(f==0)x1[g]=[[Tile alloc] init];
+    if(f==1)x2[g]=[[Tile alloc] init];
+    if(f==2)x3[g]=[[Tile alloc] init];
+    if(f==3)x4[g]=[[Tile alloc] init];
+    int h = (rand()/RAND_MAX) * 4;
+    int j = (rand()/RAND_MAX)*4;
+    while (h==f && g==j) {
+        h = (rand()/RAND_MAX) * 4;
+        j = (rand()/RAND_MAX)*4;
+    }
+    if(h==0)x1[j]=[[Tile alloc] init];
+    if(h==1)x2[j]=[[Tile alloc] init];
+    if(h==2)x3[j]=[[Tile alloc] init];
+    if(h==3)x4[j]=[[Tile alloc] init];
+    
+    int x;
+    for(x=0;x<4;x++){
+        if(x1[x]==NULL){
+            x1[x]=[[Tile alloc] init];
+            x1[x].value=0;
+        }
+        if(x2[x]==NULL){
+            x2[x]=[[Tile alloc] init];
+            x2[x].value=0;
+        }if(x3[x]==NULL){
+            x3[x]=[[Tile alloc] init];
+            x3[x].value=0;
+        }
+        if(x3[x]==NULL){
+            x3[x]=[[Tile alloc] init];
+            x3[x].value=0;
+        }
+    }
+    return self;
+}
+
+-(void)swipeLeft{
+    int x;
+    for(x=0;x<4;x++){
+        
+    }
+}
+
+@end
+
 @implementation Tile
 
 -(id)init{
     self=[super init];
     length=75;
     height=75;
-    int r=rand()*2;
+    int r=(rand()/RAND_MAX)*2;
     if(r==0){
         v=2;
     }
