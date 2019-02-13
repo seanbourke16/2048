@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  hello world
+//  2048
 //
-//  Created by Sean Bourke on 1/28/19.
+//  Created by Sean Bourke on 2/7/19.
 //  Copyright © 2019 Sean Bourke. All rights reserved.
 //
 

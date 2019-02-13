@@ -7,7 +7,16 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "Tile.h"
 
-@interface GameScene : SKScene
+
+
+
+@interface GameScene : SKScene{
+    Tile *tile[4][4];
+}
+@property NSMutableArray *tiles;
 
 @end
+
+

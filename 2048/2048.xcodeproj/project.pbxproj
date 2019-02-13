@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC17F62B2213B0310095D783 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = DC17F62A2213B0310095D783 /* Tile.m */; };
 		DCAA88AF220CE1F3001A4512 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA88AE220CE1F3001A4512 /* main.m */; };
 		DCAA88B2220CE1F3001A4512 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA88B1220CE1F3001A4512 /* AppDelegate.m */; };
 		DCAA88B4220CE1F3001A4512 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DCAA88B3220CE1F3001A4512 /* GameScene.sks */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC17F62A2213B0310095D783 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		DC17F62C2213B0890095D783 /* Tile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
 		DCAA88AA220CE1F3001A4512 /* 2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAA88AE220CE1F3001A4512 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCAA88B0220CE1F3001A4512 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				DCAA88B3220CE1F3001A4512 /* GameScene.sks */,
 				DCAA88B5220CE1F3001A4512 /* Actions.sks */,
 				DCAA88B7220CE1F3001A4512 /* GameScene.h */,
+				DC17F62A2213B0310095D783 /* Tile.m */,
+				DC17F62C2213B0890095D783 /* Tile.h */,
 				DCAA88B8220CE1F3001A4512 /* GameScene.m */,
 				DCAA88BA220CE1F3001A4512 /* GameViewController.h */,
 				DCAA88BB220CE1F3001A4512 /* GameViewController.m */,
@@ -286,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC17F62B2213B0310095D783 /* Tile.m in Sources */,
 				DCAA88BC220CE1F3001A4512 /* GameViewController.m in Sources */,
 				DCAA88B2220CE1F3001A4512 /* AppDelegate.m in Sources */,
 				DCAA88B9220CE1F3001A4512 /* GameScene.m in Sources */,
@@ -521,6 +527,7 @@
 				DCAA88E0220CE1F3001A4512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCAA88E1220CE1F3001A4512 /* Build configuration list for PBXNativeTarget "2048Tests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +536,7 @@
 				DCAA88E3220CE1F3001A4512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCAA88E4220CE1F3001A4512 /* Build configuration list for PBXNativeTarget "2048UITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +545,7 @@
 				DCAA88E6220CE1F3001A4512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

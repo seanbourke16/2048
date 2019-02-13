@@ -12,6 +12,9 @@
 
 @interface GameViewController : UIViewController
 
+@property (nonatomic, strong) UIImageView *ship;
+@property float dx, dy, rotation, angle;
+@property (nonatomic, strong) NSTimer *timer;
 @end
 
 

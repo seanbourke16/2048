@@ -79,9 +79,42 @@
     // Called before each frame is rendered
 }
 
+/*-(id)initWithCoder:(NSCoder *)aDecoder {
+    self=[super initWithCoder:aDecoder];
+    if(self){
+        
+        for(int i=0;i<4;i++){
+            for(int p=0;p<4;p++){
+                tile[i][p]=[[Tile alloc] init];
+                tile[i][p].v=0;
+            }
+        }
+        
+        int f = (rand()/RAND_MAX) * 4;
+        int g = (rand()/RAND_MAX)*4;
+        int u = (rand()/RAND_MAX)*2;
+        tile[f][g].v=(u+1)*2;
+        int h = (rand()/RAND_MAX) * 4;
+        int j = (rand()/RAND_MAX)*4;
+        u=(rand()/RAND_MAX)*2;
+        while (h==f && g==j) {
+            h = (rand()/RAND_MAX) * 4;
+            j = (rand()/RAND_MAX)*4;
+        }
+        tile[h][j].v=(u+1)*2;
+        for(int x=0;x<4;x++){
+            for(int p=0;p<4;p++){
+                [tile[x][p] pos:self];
+            }
+        }
+
+    }
+    return self;
+}*/
+
 @end
 
-
+/*
 @interface Tile : NSObject {
     
     int height;
@@ -183,4 +216,4 @@
         return false;
     }
 }
-@end
+@end*/
