@@ -7,78 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC17F62B2213B0310095D783 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = DC17F62A2213B0310095D783 /* Tile.m */; };
-		DCAA88AF220CE1F3001A4512 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA88AE220CE1F3001A4512 /* main.m */; };
-		DCAA88B2220CE1F3001A4512 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA88B1220CE1F3001A4512 /* AppDelegate.m */; };
-		DCAA88B4220CE1F3001A4512 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DCAA88B3220CE1F3001A4512 /* GameScene.sks */; };
-		DCAA88B6220CE1F3001A4512 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DCAA88B5220CE1F3001A4512 /* Actions.sks */; };
-		DCAA88B9220CE1F3001A4512 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA88B8220CE1F3001A4512 /* GameScene.m */; };
-		DCAA88BC220CE1F3001A4512 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA88BB220CE1F3001A4512 /* GameViewController.m */; };
-		DCAA88BF220CE1F3001A4512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAA88BD220CE1F3001A4512 /* Main.storyboard */; };
-		DCAA88C1220CE1F3001A4512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAA88C0220CE1F3001A4512 /* Assets.xcassets */; };
-		DCAA88C4220CE1F3001A4512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAA88C2220CE1F3001A4512 /* LaunchScreen.storyboard */; };
-		DCAA88CF220CE1F3001A4512 /* _048Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA88CE220CE1F3001A4512 /* _048Tests.m */; };
-		DCAA88DA220CE1F3001A4512 /* _048UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA88D9220CE1F3001A4512 /* _048UITests.m */; };
+		DCFE99372214692A000FE85B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFE99362214692A000FE85B /* main.m */; };
+		DCFE993A2214692A000FE85B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFE99392214692A000FE85B /* AppDelegate.m */; };
+		DCFE99412214692A000FE85B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFE99402214692A000FE85B /* GameScene.m */; };
+		DCFE99442214692A000FE85B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFE99432214692A000FE85B /* GameViewController.m */; };
+		DCFE99472214692A000FE85B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFE99452214692A000FE85B /* Main.storyboard */; };
+		DCFE99492214692A000FE85B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFE99482214692A000FE85B /* Assets.xcassets */; };
+		DCFE994C2214692A000FE85B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFE994A2214692A000FE85B /* LaunchScreen.storyboard */; };
+		DCFE99572214692A000FE85B /* _048Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFE99562214692A000FE85B /* _048Tests.m */; };
+		DCFE99622214692A000FE85B /* _048UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFE99612214692A000FE85B /* _048UITests.m */; };
+		DCFE99712214696D000FE85B /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFE99702214696D000FE85B /* Tile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DCAA88CB220CE1F3001A4512 /* PBXContainerItemProxy */ = {
+		DCFE99532214692A000FE85B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DCAA88A2220CE1F3001A4512 /* Project object */;
+			containerPortal = DCFE992A2214692A000FE85B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DCAA88A9220CE1F3001A4512;
+			remoteGlobalIDString = DCFE99312214692A000FE85B;
 			remoteInfo = 2048;
 		};
-		DCAA88D6220CE1F3001A4512 /* PBXContainerItemProxy */ = {
+		DCFE995E2214692A000FE85B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DCAA88A2220CE1F3001A4512 /* Project object */;
+			containerPortal = DCFE992A2214692A000FE85B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DCAA88A9220CE1F3001A4512;
+			remoteGlobalIDString = DCFE99312214692A000FE85B;
 			remoteInfo = 2048;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC17F62A2213B0310095D783 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
-		DC17F62C2213B0890095D783 /* Tile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
-		DCAA88AA220CE1F3001A4512 /* 2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCAA88AE220CE1F3001A4512 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DCAA88B0220CE1F3001A4512 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DCAA88B1220CE1F3001A4512 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DCAA88B3220CE1F3001A4512 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		DCAA88B5220CE1F3001A4512 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		DCAA88B7220CE1F3001A4512 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		DCAA88B8220CE1F3001A4512 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		DCAA88BA220CE1F3001A4512 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		DCAA88BB220CE1F3001A4512 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		DCAA88BE220CE1F3001A4512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DCAA88C0220CE1F3001A4512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DCAA88C3220CE1F3001A4512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DCAA88C5220CE1F3001A4512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCAA88CA220CE1F3001A4512 /* 2048Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2048Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCAA88CE220CE1F3001A4512 /* _048Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _048Tests.m; sourceTree = "<group>"; };
-		DCAA88D0220CE1F3001A4512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCAA88D5220CE1F3001A4512 /* 2048UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2048UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCAA88D9220CE1F3001A4512 /* _048UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _048UITests.m; sourceTree = "<group>"; };
-		DCAA88DB220CE1F3001A4512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFE99322214692A000FE85B /* 2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFE99362214692A000FE85B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCFE99382214692A000FE85B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCFE99392214692A000FE85B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCFE993F2214692A000FE85B /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		DCFE99402214692A000FE85B /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		DCFE99422214692A000FE85B /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		DCFE99432214692A000FE85B /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		DCFE99462214692A000FE85B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCFE99482214692A000FE85B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCFE994B2214692A000FE85B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCFE994D2214692A000FE85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFE99522214692A000FE85B /* 2048Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2048Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFE99562214692A000FE85B /* _048Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _048Tests.m; sourceTree = "<group>"; };
+		DCFE99582214692A000FE85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFE995D2214692A000FE85B /* 2048UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2048UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFE99612214692A000FE85B /* _048UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _048UITests.m; sourceTree = "<group>"; };
+		DCFE99632214692A000FE85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFE996F22146952000FE85B /* Tile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		DCFE99702214696D000FE85B /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DCAA88A7220CE1F3001A4512 /* Frameworks */ = {
+		DCFE992F2214692A000FE85B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCAA88C7220CE1F3001A4512 /* Frameworks */ = {
+		DCFE994F2214692A000FE85B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCAA88D2220CE1F3001A4512 /* Frameworks */ = {
+		DCFE995A2214692A000FE85B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,70 +84,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DCAA88A1220CE1F3001A4512 = {
+		DCFE99292214692A000FE85B = {
 			isa = PBXGroup;
 			children = (
-				DCAA88AC220CE1F3001A4512 /* 2048 */,
-				DCAA88CD220CE1F3001A4512 /* 2048Tests */,
-				DCAA88D8220CE1F3001A4512 /* 2048UITests */,
-				DCAA88AB220CE1F3001A4512 /* Products */,
+				DCFE99342214692A000FE85B /* 2048 */,
+				DCFE99552214692A000FE85B /* 2048Tests */,
+				DCFE99602214692A000FE85B /* 2048UITests */,
+				DCFE99332214692A000FE85B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DCAA88AB220CE1F3001A4512 /* Products */ = {
+		DCFE99332214692A000FE85B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCAA88AA220CE1F3001A4512 /* 2048.app */,
-				DCAA88CA220CE1F3001A4512 /* 2048Tests.xctest */,
-				DCAA88D5220CE1F3001A4512 /* 2048UITests.xctest */,
+				DCFE99322214692A000FE85B /* 2048.app */,
+				DCFE99522214692A000FE85B /* 2048Tests.xctest */,
+				DCFE995D2214692A000FE85B /* 2048UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DCAA88AC220CE1F3001A4512 /* 2048 */ = {
+		DCFE99342214692A000FE85B /* 2048 */ = {
 			isa = PBXGroup;
 			children = (
-				DCAA88B0220CE1F3001A4512 /* AppDelegate.h */,
-				DCAA88B1220CE1F3001A4512 /* AppDelegate.m */,
-				DCAA88B3220CE1F3001A4512 /* GameScene.sks */,
-				DCAA88B5220CE1F3001A4512 /* Actions.sks */,
-				DCAA88B7220CE1F3001A4512 /* GameScene.h */,
-				DC17F62A2213B0310095D783 /* Tile.m */,
-				DC17F62C2213B0890095D783 /* Tile.h */,
-				DCAA88B8220CE1F3001A4512 /* GameScene.m */,
-				DCAA88BA220CE1F3001A4512 /* GameViewController.h */,
-				DCAA88BB220CE1F3001A4512 /* GameViewController.m */,
-				DCAA88BD220CE1F3001A4512 /* Main.storyboard */,
-				DCAA88C0220CE1F3001A4512 /* Assets.xcassets */,
-				DCAA88C2220CE1F3001A4512 /* LaunchScreen.storyboard */,
-				DCAA88C5220CE1F3001A4512 /* Info.plist */,
-				DCAA88AD220CE1F3001A4512 /* Supporting Files */,
+				DCFE99382214692A000FE85B /* AppDelegate.h */,
+				DCFE99392214692A000FE85B /* AppDelegate.m */,
+				DCFE993F2214692A000FE85B /* GameScene.h */,
+				DCFE99402214692A000FE85B /* GameScene.m */,
+				DCFE996F22146952000FE85B /* Tile.h */,
+				DCFE99702214696D000FE85B /* Tile.m */,
+				DCFE99422214692A000FE85B /* GameViewController.h */,
+				DCFE99432214692A000FE85B /* GameViewController.m */,
+				DCFE99452214692A000FE85B /* Main.storyboard */,
+				DCFE99482214692A000FE85B /* Assets.xcassets */,
+				DCFE994A2214692A000FE85B /* LaunchScreen.storyboard */,
+				DCFE994D2214692A000FE85B /* Info.plist */,
+				DCFE99352214692A000FE85B /* Supporting Files */,
 			);
 			path = 2048;
 			sourceTree = "<group>";
 		};
-		DCAA88AD220CE1F3001A4512 /* Supporting Files */ = {
+		DCFE99352214692A000FE85B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DCAA88AE220CE1F3001A4512 /* main.m */,
+				DCFE99362214692A000FE85B /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DCAA88CD220CE1F3001A4512 /* 2048Tests */ = {
+		DCFE99552214692A000FE85B /* 2048Tests */ = {
 			isa = PBXGroup;
 			children = (
-				DCAA88CE220CE1F3001A4512 /* _048Tests.m */,
-				DCAA88D0220CE1F3001A4512 /* Info.plist */,
+				DCFE99562214692A000FE85B /* _048Tests.m */,
+				DCFE99582214692A000FE85B /* Info.plist */,
 			);
 			path = 2048Tests;
 			sourceTree = "<group>";
 		};
-		DCAA88D8220CE1F3001A4512 /* 2048UITests */ = {
+		DCFE99602214692A000FE85B /* 2048UITests */ = {
 			isa = PBXGroup;
 			children = (
-				DCAA88D9220CE1F3001A4512 /* _048UITests.m */,
-				DCAA88DB220CE1F3001A4512 /* Info.plist */,
+				DCFE99612214692A000FE85B /* _048UITests.m */,
+				DCFE99632214692A000FE85B /* Info.plist */,
 			);
 			path = 2048UITests;
 			sourceTree = "<group>";
@@ -159,13 +153,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DCAA88A9220CE1F3001A4512 /* 2048 */ = {
+		DCFE99312214692A000FE85B /* 2048 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCAA88DE220CE1F3001A4512 /* Build configuration list for PBXNativeTarget "2048" */;
+			buildConfigurationList = DCFE99662214692A000FE85B /* Build configuration list for PBXNativeTarget "2048" */;
 			buildPhases = (
-				DCAA88A6220CE1F3001A4512 /* Sources */,
-				DCAA88A7220CE1F3001A4512 /* Frameworks */,
-				DCAA88A8220CE1F3001A4512 /* Resources */,
+				DCFE992E2214692A000FE85B /* Sources */,
+				DCFE992F2214692A000FE85B /* Frameworks */,
+				DCFE99302214692A000FE85B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -173,71 +167,71 @@
 			);
 			name = 2048;
 			productName = 2048;
-			productReference = DCAA88AA220CE1F3001A4512 /* 2048.app */;
+			productReference = DCFE99322214692A000FE85B /* 2048.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DCAA88C9220CE1F3001A4512 /* 2048Tests */ = {
+		DCFE99512214692A000FE85B /* 2048Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCAA88E1220CE1F3001A4512 /* Build configuration list for PBXNativeTarget "2048Tests" */;
+			buildConfigurationList = DCFE99692214692A000FE85B /* Build configuration list for PBXNativeTarget "2048Tests" */;
 			buildPhases = (
-				DCAA88C6220CE1F3001A4512 /* Sources */,
-				DCAA88C7220CE1F3001A4512 /* Frameworks */,
-				DCAA88C8220CE1F3001A4512 /* Resources */,
+				DCFE994E2214692A000FE85B /* Sources */,
+				DCFE994F2214692A000FE85B /* Frameworks */,
+				DCFE99502214692A000FE85B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DCAA88CC220CE1F3001A4512 /* PBXTargetDependency */,
+				DCFE99542214692A000FE85B /* PBXTargetDependency */,
 			);
 			name = 2048Tests;
 			productName = 2048Tests;
-			productReference = DCAA88CA220CE1F3001A4512 /* 2048Tests.xctest */;
+			productReference = DCFE99522214692A000FE85B /* 2048Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DCAA88D4220CE1F3001A4512 /* 2048UITests */ = {
+		DCFE995C2214692A000FE85B /* 2048UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCAA88E4220CE1F3001A4512 /* Build configuration list for PBXNativeTarget "2048UITests" */;
+			buildConfigurationList = DCFE996C2214692A000FE85B /* Build configuration list for PBXNativeTarget "2048UITests" */;
 			buildPhases = (
-				DCAA88D1220CE1F3001A4512 /* Sources */,
-				DCAA88D2220CE1F3001A4512 /* Frameworks */,
-				DCAA88D3220CE1F3001A4512 /* Resources */,
+				DCFE99592214692A000FE85B /* Sources */,
+				DCFE995A2214692A000FE85B /* Frameworks */,
+				DCFE995B2214692A000FE85B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DCAA88D7220CE1F3001A4512 /* PBXTargetDependency */,
+				DCFE995F2214692A000FE85B /* PBXTargetDependency */,
 			);
 			name = 2048UITests;
 			productName = 2048UITests;
-			productReference = DCAA88D5220CE1F3001A4512 /* 2048UITests.xctest */;
+			productReference = DCFE995D2214692A000FE85B /* 2048UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DCAA88A2220CE1F3001A4512 /* Project object */ = {
+		DCFE992A2214692A000FE85B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Sean Bourke";
 				TargetAttributes = {
-					DCAA88A9220CE1F3001A4512 = {
+					DCFE99312214692A000FE85B = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
-					DCAA88C9220CE1F3001A4512 = {
+					DCFE99512214692A000FE85B = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = DCAA88A9220CE1F3001A4512;
+						TestTargetID = DCFE99312214692A000FE85B;
 					};
-					DCAA88D4220CE1F3001A4512 = {
+					DCFE995C2214692A000FE85B = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = DCAA88A9220CE1F3001A4512;
+						TestTargetID = DCFE99312214692A000FE85B;
 					};
 				};
 			};
-			buildConfigurationList = DCAA88A5220CE1F3001A4512 /* Build configuration list for PBXProject "2048" */;
+			buildConfigurationList = DCFE992D2214692A000FE85B /* Build configuration list for PBXProject "2048" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -245,39 +239,37 @@
 				en,
 				Base,
 			);
-			mainGroup = DCAA88A1220CE1F3001A4512;
-			productRefGroup = DCAA88AB220CE1F3001A4512 /* Products */;
+			mainGroup = DCFE99292214692A000FE85B;
+			productRefGroup = DCFE99332214692A000FE85B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DCAA88A9220CE1F3001A4512 /* 2048 */,
-				DCAA88C9220CE1F3001A4512 /* 2048Tests */,
-				DCAA88D4220CE1F3001A4512 /* 2048UITests */,
+				DCFE99312214692A000FE85B /* 2048 */,
+				DCFE99512214692A000FE85B /* 2048Tests */,
+				DCFE995C2214692A000FE85B /* 2048UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DCAA88A8220CE1F3001A4512 /* Resources */ = {
+		DCFE99302214692A000FE85B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCAA88BF220CE1F3001A4512 /* Main.storyboard in Resources */,
-				DCAA88B4220CE1F3001A4512 /* GameScene.sks in Resources */,
-				DCAA88C1220CE1F3001A4512 /* Assets.xcassets in Resources */,
-				DCAA88C4220CE1F3001A4512 /* LaunchScreen.storyboard in Resources */,
-				DCAA88B6220CE1F3001A4512 /* Actions.sks in Resources */,
+				DCFE99472214692A000FE85B /* Main.storyboard in Resources */,
+				DCFE99492214692A000FE85B /* Assets.xcassets in Resources */,
+				DCFE994C2214692A000FE85B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCAA88C8220CE1F3001A4512 /* Resources */ = {
+		DCFE99502214692A000FE85B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCAA88D3220CE1F3001A4512 /* Resources */ = {
+		DCFE995B2214692A000FE85B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,62 +279,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DCAA88A6220CE1F3001A4512 /* Sources */ = {
+		DCFE992E2214692A000FE85B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC17F62B2213B0310095D783 /* Tile.m in Sources */,
-				DCAA88BC220CE1F3001A4512 /* GameViewController.m in Sources */,
-				DCAA88B2220CE1F3001A4512 /* AppDelegate.m in Sources */,
-				DCAA88B9220CE1F3001A4512 /* GameScene.m in Sources */,
-				DCAA88AF220CE1F3001A4512 /* main.m in Sources */,
+				DCFE99712214696D000FE85B /* Tile.m in Sources */,
+				DCFE99442214692A000FE85B /* GameViewController.m in Sources */,
+				DCFE993A2214692A000FE85B /* AppDelegate.m in Sources */,
+				DCFE99412214692A000FE85B /* GameScene.m in Sources */,
+				DCFE99372214692A000FE85B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCAA88C6220CE1F3001A4512 /* Sources */ = {
+		DCFE994E2214692A000FE85B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCAA88CF220CE1F3001A4512 /* _048Tests.m in Sources */,
+				DCFE99572214692A000FE85B /* _048Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCAA88D1220CE1F3001A4512 /* Sources */ = {
+		DCFE99592214692A000FE85B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCAA88DA220CE1F3001A4512 /* _048UITests.m in Sources */,
+				DCFE99622214692A000FE85B /* _048UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DCAA88CC220CE1F3001A4512 /* PBXTargetDependency */ = {
+		DCFE99542214692A000FE85B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCAA88A9220CE1F3001A4512 /* 2048 */;
-			targetProxy = DCAA88CB220CE1F3001A4512 /* PBXContainerItemProxy */;
+			target = DCFE99312214692A000FE85B /* 2048 */;
+			targetProxy = DCFE99532214692A000FE85B /* PBXContainerItemProxy */;
 		};
-		DCAA88D7220CE1F3001A4512 /* PBXTargetDependency */ = {
+		DCFE995F2214692A000FE85B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCAA88A9220CE1F3001A4512 /* 2048 */;
-			targetProxy = DCAA88D6220CE1F3001A4512 /* PBXContainerItemProxy */;
+			target = DCFE99312214692A000FE85B /* 2048 */;
+			targetProxy = DCFE995E2214692A000FE85B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DCAA88BD220CE1F3001A4512 /* Main.storyboard */ = {
+		DCFE99452214692A000FE85B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DCAA88BE220CE1F3001A4512 /* Base */,
+				DCFE99462214692A000FE85B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DCAA88C2220CE1F3001A4512 /* LaunchScreen.storyboard */ = {
+		DCFE994A2214692A000FE85B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DCAA88C3220CE1F3001A4512 /* Base */,
+				DCFE994B2214692A000FE85B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -350,7 +342,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DCAA88DC220CE1F3001A4512 /* Debug */ = {
+		DCFE99642214692A000FE85B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -398,7 +390,7 @@
 			};
 			name = Debug;
 		};
-		DCAA88DD220CE1F3001A4512 /* Release */ = {
+		DCFE99652214692A000FE85B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -440,69 +432,69 @@
 			};
 			name = Release;
 		};
-		DCAA88DF220CE1F3001A4512 /* Debug */ = {
+		DCFE99672214692A000FE85B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 2048/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sbourke1.-048";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sean-Bourke.-048";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		DCAA88E0220CE1F3001A4512 /* Release */ = {
+		DCFE99682214692A000FE85B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 2048/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sbourke1.-048";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sean-Bourke.-048";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		DCAA88E2220CE1F3001A4512 /* Debug */ = {
+		DCFE996A2214692A000FE85B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = 2048Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sbourke1.-048Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sean-Bourke.-048Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2048.app/2048";
 			};
 			name = Debug;
 		};
-		DCAA88E3220CE1F3001A4512 /* Release */ = {
+		DCFE996B2214692A000FE85B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = 2048Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sbourke1.-048Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sean-Bourke.-048Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2048.app/2048";
 			};
 			name = Release;
 		};
-		DCAA88E5220CE1F3001A4512 /* Debug */ = {
+		DCFE996D2214692A000FE85B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = 2048UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sbourke1.-048UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sean-Bourke.-048UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = 2048;
 			};
 			name = Debug;
 		};
-		DCAA88E6220CE1F3001A4512 /* Release */ = {
+		DCFE996E2214692A000FE85B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = 2048UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sbourke1.-048UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sean-Bourke.-048UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = 2048;
 			};
@@ -511,43 +503,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DCAA88A5220CE1F3001A4512 /* Build configuration list for PBXProject "2048" */ = {
+		DCFE992D2214692A000FE85B /* Build configuration list for PBXProject "2048" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCAA88DC220CE1F3001A4512 /* Debug */,
-				DCAA88DD220CE1F3001A4512 /* Release */,
+				DCFE99642214692A000FE85B /* Debug */,
+				DCFE99652214692A000FE85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCAA88DE220CE1F3001A4512 /* Build configuration list for PBXNativeTarget "2048" */ = {
+		DCFE99662214692A000FE85B /* Build configuration list for PBXNativeTarget "2048" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCAA88DF220CE1F3001A4512 /* Debug */,
-				DCAA88E0220CE1F3001A4512 /* Release */,
+				DCFE99672214692A000FE85B /* Debug */,
+				DCFE99682214692A000FE85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		DCAA88E1220CE1F3001A4512 /* Build configuration list for PBXNativeTarget "2048Tests" */ = {
+		DCFE99692214692A000FE85B /* Build configuration list for PBXNativeTarget "2048Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCAA88E2220CE1F3001A4512 /* Debug */,
-				DCAA88E3220CE1F3001A4512 /* Release */,
+				DCFE996A2214692A000FE85B /* Debug */,
+				DCFE996B2214692A000FE85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		DCAA88E4220CE1F3001A4512 /* Build configuration list for PBXNativeTarget "2048UITests" */ = {
+		DCFE996C2214692A000FE85B /* Build configuration list for PBXNativeTarget "2048UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCAA88E5220CE1F3001A4512 /* Debug */,
-				DCAA88E6220CE1F3001A4512 /* Release */,
+				DCFE996D2214692A000FE85B /* Debug */,
+				DCFE996E2214692A000FE85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DCAA88A2220CE1F3001A4512 /* Project object */;
+	rootObject = DCFE992A2214692A000FE85B /* Project object */;
 }

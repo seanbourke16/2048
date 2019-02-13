@@ -1,8 +1,8 @@
 //
 //  Tile.m
-//  2048
+//  hello world
 //
-//  Created by Sean Bourke on 2/13/19.
+//  Created by Sean Bourke on 2/12/19.
 //  Copyright © 2019 Sean Bourke. All rights reserved.
 //
 
@@ -19,8 +19,6 @@
     _label=[[UILabel alloc] initWithFrame:CGRectMake(0, 0, 80, 80)];
     _label.textAlignment=NSTextAlignmentCenter;
     _label.text=[NSString stringWithFormat:@"%d",_v];
-    _dx=100;
-    _dy=100;
     //int r=(rand()/RAND_MAX)*2;
     /*if(r==0){
      v=2;
@@ -32,26 +30,22 @@
 }
 
 -(void)pos{
-    shape=[[UILabel alloc] initWithFrame:CGRectMake(_dx,_dy,80,80)];
+    shape=[[UILabel alloc] initWithFrame:CGRectMake(10,10,200,200)];
     shape.backgroundColor=[UIColor blueColor];
-    //shape.backgroundColor=[UIColor colorWithRed:100 green:100 blue:100 alpha:100];
-    shape.text=[NSString stringWithFormat:@"%d",self.v];
-    shape.textAlignment=NSTextAlignmentCenter;
-    shape.textColor=[UIColor whiteColor];
 }
 
 -(void)move:(int)dir{
     if(dir==0){
-        _dy+=10;
+        dy+=10;
     }
     if(dir==1){
-        _dx+=10;
+        dx+=10;
     }
     if(dir==2){
-        _dy-=10;
+        dy-=10;
     }
     if(dir==3){
-        _dx-=10;
+        dx-=10;
     }
 }
 
