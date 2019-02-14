@@ -53,6 +53,16 @@
                                     <action selector="up:" destination="BV1-FR-VrT" eventType="touchUpInside" id="6Oc-sf-AeO"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KhN-EZ-tAE">
+                                <rect key="frame" x="125" y="642" width="125" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82425258986660377" green="1" blue="0.97456471394061683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="New Game"/>
+                                <connections>
+                                    <action selector="newGame:" destination="BV1-FR-VrT" eventType="touchUpInside" id="Kq9-eX-xkE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.88053518984291734" blue="0.78284227863197675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>

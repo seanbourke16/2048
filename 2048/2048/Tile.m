@@ -33,11 +33,62 @@
 
 -(void)pos{
     shape=[[UILabel alloc] initWithFrame:CGRectMake(_dx,_dy,80,80)];
-    shape.backgroundColor=[UIColor blueColor];
-    //shape.backgroundColor=[UIColor colorWithRed:100 green:100 blue:100 alpha:100];
-    shape.text=[NSString stringWithFormat:@"%d",self.v];
+    //shape.backgroundColor=[UIColor blueColor];
+    shape.backgroundColor=[UIColor colorWithRed:100/255 green:100/255 blue:100/255 alpha:1];
+    if(self.v!=0)shape.text=[NSString stringWithFormat:@"%d",self.v];
     shape.textAlignment=NSTextAlignmentCenter;
     shape.textColor=[UIColor whiteColor];
+}
+
+-(void)update{
+    if(_v==0){
+        shape.backgroundColor=[UIColor grayColor];
+    }
+    if(_v==2){
+        shape.backgroundColor=[UIColor brownColor];
+        //NSLog(@"%d2",_v);
+    }
+    if(_v==4){
+        shape.backgroundColor=[UIColor orangeColor];
+        //NSLog(@"%d4",_v);
+    }
+    if(_v==8){
+        shape.backgroundColor=[UIColor magentaColor];
+        //NSLog(@"%d8",_v);
+    }
+    if(_v==16){
+        shape.backgroundColor=[UIColor yellowColor];
+        //NSLog(@"%d16",_v);
+    }
+    if(_v==32){
+        shape.backgroundColor=[UIColor redColor];
+        //NSLog(@"%d32",_v);
+    }
+    if(_v==64){
+        shape.backgroundColor=[UIColor greenColor];
+        //NSLog(@"%d64",_v);
+    }
+    if(_v==128){
+        shape.backgroundColor=[UIColor orangeColor];
+    }
+    if(_v==256){
+        shape.backgroundColor=[UIColor magentaColor];
+    }
+    if(_v==512){
+        shape.backgroundColor=[UIColor cyanColor];
+    }
+    if(_v==1024){
+        shape.backgroundColor=[UIColor blueColor];
+    }
+    if(_v==2048){
+        shape.backgroundColor=[UIColor purpleColor];
+    }
+    if(_v>2048){
+        shape.backgroundColor=[UIColor blackColor];
+    }
+    if(_v==0)shape.text=[NSString stringWithFormat:@""];
+    else shape.text=[NSString stringWithFormat:@"%d",_v];
+    
 }
 
 -(void)move:(int)dir{

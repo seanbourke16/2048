@@ -30,6 +30,7 @@
 
 -(void)pos;
 -(void)move:(int)dir;
+-(void)update;
 @end
 
 

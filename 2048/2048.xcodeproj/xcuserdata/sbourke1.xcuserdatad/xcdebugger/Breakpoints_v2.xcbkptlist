@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "2048/GameViewController.m"
-            timestampString = "571764474.231923"
+            timestampString = "571802196.148114"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>

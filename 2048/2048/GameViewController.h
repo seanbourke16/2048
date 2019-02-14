@@ -15,8 +15,11 @@
     Tile *tile[4][4];
 }
 @property NSMutableArray *tiles;
-//-(IBAction)left:(id)sender;
-//-(IBAction)right:(id)sender;
-//-(IBAction)up:(id)sender;
-//-(IBAction)down:(id)sender;
+-(IBAction)left:(id)sender;
+-(IBAction)right:(id)sender;
+-(IBAction)up:(id)sender;
+-(IBAction)down:(id)sender;
+-(Boolean)possible;
+-(void)newTile;
+
 @end
